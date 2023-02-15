@@ -14,44 +14,38 @@
 
 A. Class Mahasiswa:
 
--> Atribut:
+* Atribut:
 
-- nim = NIM Mahasiswa
-- nama = Nama Mahasiswa
-- prodi = Program Studi Mahasiswa
-- fakultas = Fakultas Mahasiswa
+  - nim = NIM Mahasiswa
+  - nama = Nama Mahasiswa
+  - prodi = Program Studi Mahasiswa
+  - fakultas = Fakultas Mahasiswa
 
--> Method:
-- get_nim() = mendapatkan nim
-- get_nama() = mendapatkan nama
-- get_prodi() = mendapatkan prodi
-- get_fakultas() = mendapatkan fakultas
-- set_nim() = menetapkan value nim
-- set_nama() = menetapkan value nama
-- set_prodi() = menetapkan value prodi
-- set_fakultas() = menetapkan value fakultas
+* Method:
+  - get_nim() = mendapatkan nim
+  - get_nama() = mendapatkan nama
+  - get_prodi() = mendapatkan prodi
+  - get_fakultas() = mendapatkan fakultas
+  - set_nim() = menetapkan value nim
+  - set_nama() = menetapkan value nama
+  - set_prodi() = menetapkan value prodi
+  - set_fakultas() = menetapkan value fakultas
 
 ## Alur Program
 A. Program dibuka atau dijalankan
-
-    Ketika program pertama kali dijalankan maka akan keluar sebuah menu yang berisi 5 pilihan yaitu Create, Read, Update, Delete dan Exit
+ > Ketika program pertama kali dijalankan maka akan keluar sebuah menu yang berisi 5 pilihan yaitu Create, Read, Update, Delete dan Exit
 
 B. Ketika memilih salah satu query
-
-    1. Create, 
-        User akan diminta untuk memasukkan masukkan seperti NIM, Nama, Prodi, dan Fakultas jika berhasil maka akan mengeluarkan text berhasil
-       
-    2. Read,
-        Program akan menampilkan semua data mahasiswa yang sudah dimasukkan user
-       
-    3. Update,
-        User akan diminta untuk memasukkan NIM mana yang akan diganti. Jika NIM tersebut ditemukan maka user akan diminta kembali untuk memasukkan masukkan seperti NIM, Nama, Prodi, dan Fakultas untuk diupdate dengan data tersebut. Jika berhasil maka akan keluar text berhasil. Jika NIM tidak ditemukan maka akan mengeluarkan text NIM tidak ditemukan
-        
-    4. Delete,
-        User akan diminta untuk memasukkan NIM mana yang nantinya akan dihapus. Jika ditemukan maka object yang NIM nya itu akan dihapus. Jika tidak ditemukan maka akan mengeluarkan text tidak ditemukan
-        
-    5. Exit
-        User akan keluar dari Program
+ 1. Create
+  > User akan diminta untuk memasukkan masukkan seperti NIM, Nama, Prodi, dan Fakultas jika berhasil maka akan mengeluarkan text berhasil
+ 2. Read
+  > Program akan menampilkan semua data mahasiswa yang sudah dimasukkan user     
+ 3. Update
+  > User akan diminta untuk memasukkan NIM mana yang akan diganti. Jika NIM tersebut ditemukan maka user akan diminta kembali untuk memasukkan masukkan seperti NIM, Nama, Prodi, dan Fakultas untuk diupdate dengan data tersebut. Jika berhasil maka akan keluar text berhasil. Jika NIM tidak ditemukan maka akan mengeluarkan text NIM tidak ditemukan
+ 4. Delete
+  > User akan diminta untuk memasukkan NIM mana yang nantinya akan dihapus. Jika ditemukan maka object yang NIM nya itu akan dihapus. Jika tidak ditemukan maka akan mengeluarkan text tidak ditemukan
+ 5. Exit
+  > User akan keluar dari Program
         
  ## Dokumentasi
  - Menu
